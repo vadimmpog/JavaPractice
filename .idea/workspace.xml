@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a2cf1a-678a-47cd-b33c-95d8d067227c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,24 +18,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YFMLr21CNfIrWre3rW1CD3w10a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Second">
+  <component name="RunManager" selected="Application.Third">
     <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="First" />
       <module name="JavaPractice1" />
@@ -51,12 +44,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Third" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Third" />
+      <module name="JavaPractice1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Third" />
         <item itemvalue="Application.Second" />
         <item itemvalue="Application.First" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -69,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582533920437</updated>
       <workItem from="1582533921574" duration="8275000" />
+      <workItem from="1583167562532" duration="17422000" />
     </task>
     <servers />
   </component>
@@ -80,10 +94,54 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1583192230182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583192230182" />
+    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1583192230182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583192230182" />
+    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1583192230181">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583192230181" />
+    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1583192230182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583192230182" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583183680357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583183680357" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1583183680357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583183680357" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1583183680357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583183680357" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1583183680357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583183680357" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1583178849022">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583178849022" />
+    <state x="318" y="77" width="672" height="678" key="search.everywhere.popup" timestamp="1583187072441">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="318" y="77" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583187072441" />
   </component>
 </project>
