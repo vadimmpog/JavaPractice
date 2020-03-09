@@ -27,9 +27,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsoup-1.13.1.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Third">
+  <component name="RunManager" selected="Application.THIRD_LAB">
+    <configuration name="FIRST_LAB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FIRST_LAB" />
+      <module name="JavaPractice1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="First" />
       <module name="JavaPractice1" />
@@ -37,15 +47,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Second" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Second" />
+    <configuration name="SECOND_LAB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SECOND_LAB" />
       <module name="JavaPractice1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Third" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Third" />
+    <configuration name="THIRD_LAB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="THIRD_LAB" />
       <module name="JavaPractice1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -53,8 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Third" />
-        <item itemvalue="Application.Second" />
+        <item itemvalue="Application.THIRD_LAB" />
         <item itemvalue="Application.First" />
       </list>
     </recent_temporary>
@@ -82,7 +91,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582533920437</updated>
       <workItem from="1582533921574" duration="8275000" />
-      <workItem from="1583167562532" duration="17422000" />
+      <workItem from="1583167562532" duration="17546000" />
+      <workItem from="1583221611204" duration="3719000" />
+      <workItem from="1583416712373" duration="29000" />
     </task>
     <servers />
   </component>
@@ -103,22 +114,22 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom" timestamp="1583192230182">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583791710592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583192230182" />
-    <state width="1323" height="239" key="GridCell.Tab.0.center" timestamp="1583192230182">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583791710592" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583791710592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583192230182" />
-    <state width="1323" height="239" key="GridCell.Tab.0.left" timestamp="1583192230181">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583791710592" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583791710592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583192230181" />
-    <state width="1323" height="239" key="GridCell.Tab.0.right" timestamp="1583192230182">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583791710592" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583791710592">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="239" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583192230182" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583791710592" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583183680357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -135,10 +146,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583183680357" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1583178849022">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1583791330971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583178849022" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583791330971" />
+    <state x="65" y="0" key="new project wizard" timestamp="1583416741750">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583416741750" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1583223642063">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583223642063" />
     <state x="318" y="77" width="672" height="678" key="search.everywhere.popup" timestamp="1583187072441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
