@@ -6,6 +6,7 @@ public class First {
         Scanner in = new Scanner(System.in);
         String s = in.next();
         char a = s.charAt(0);
+        boolean f = true;
         Stack<Character> kek = new Stack<>();
         for(int i=0; i<s.length();i++){
             if (!kek.isEmpty()) a = kek.peek();
@@ -13,16 +14,17 @@ public class First {
             if(a == '('||a == '{'||a == '['){
                 if((a == '('&& kek.peek() == ')')||(a == '{'&& kek.peek() == '}')||(a == '['&& kek.peek() == ']')){
                     kek.pop();
-                    kek.pop();
+                    if(!kek.isEmpty()) kek.pop();
+                    else f = false;
                 }
             }
             else break;
         }
-        if(kek.isEmpty()){
-            System.out.print("Yes");
+        if(kek.isEmpty() && f ){
+            System.out.print("yes");
         }
         else{
-            System.out.print("No");
+            System.out.print("no");
         }
     }
 }
