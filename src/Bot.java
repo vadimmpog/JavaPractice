@@ -18,7 +18,6 @@ public class Bot {
             SendResponse response = bot.execute(new SendMessage(chatId,updates.get(0).message().text()));
 
 
-
             return UpdatesListener.CONFIRMED_UPDATES_ALL;
         });
 

@@ -1,14 +1,36 @@
+import org.apache.http.entity.ContentProducer;
 
-public class Test {
+import java.util.*;
 
-    public boolean isSort(int[] arr){
-        boolean x = true;
-        for(int i = 1; i< arr.length;i++){
-            if(arr[i]<arr[i-1]){
-                x = false;
-            }
+
+public class Test{
+    static class Work extends Thread{
+        int num;
+        public Work(int num, Map map){
+            this.num = num;
         }
-        return x;
+        @Override
+        public void run() {
+
+
+
+        }
     }
 
+    public static void main(String[] args) {
+        Map synchMap = Collections.synchronizedMap(new HashMap());
+        Work work1 = new Work(1,synchMap);
+        Work work2 = new Work(2,synchMap);
+        Work work3 = new Work(3,synchMap);
+        Work work4 = new Work(4,synchMap);
+        Work work5 = new Work(5,synchMap);
+
+        work1.start();
+        work2.start();
+        work3.start();
+        work4.start();
+        work5.start();
+
+
+    }
 }
